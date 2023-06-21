@@ -1,0 +1,36 @@
+body {
+  background-color: #282828;
+}
+
+nav {
+  background-color: orange;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.opciones {
+  display: flex;
+  list-style-type: none;
+}
+
+.opciones li {
+  margin-left: 10px;
+  background-color: rgba(29, 28, 28, 0.867);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.opciones li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.opciones li a:hover {
+  text-decoration: underline;
+}
